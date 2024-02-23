@@ -2,11 +2,15 @@
 
 Procesos, hilos y corrutinas
 ● Un caso en el que usarías procesos para resolver un problema y por qué.
+
 los procesos son las ejecuciones de los programas que nosotros realizamos para desarrollo es un proceso y por lo cual si hablamos que problema podemos resolver con un proceso seria la ejecucion de programas.
+
 ● Un caso en el que usarías threads para resolver un problema y por qué.
+
 los hilos son las ejecuciones que si se dan paralelamente, estos se utilizan para ejecuctar tareas que se pueden realizar de forma paralela y asi ahorrar tiempo de procesamiento, los hilos usan la memoria de un solo procesamiento y por lo cual tambien suelen ser pesadas.
 
 ● Un caso en el que usarías corrutinas para resolver un problema y por qué.
+
 las corrutinas son las ejecuciones donde se aprovecha al maximo la cpu, ya que permite hacer ejecuciones para varias tareas, pero liberando el hilo para que se ejucuten todas y asi parecer que se estuvieran ejecuctando paralelamente, pero la ejecucion se realiza una tarea y luego la para y ejecuta otra y asi sucesivamente. estas corrutinas son muy optimas para los desarrollos que puede tener varios procesos que se pueden ejeucutar de forma "paralela" para asi poder ganar mucho mas tiempo en la respuesta de los desarrollos
 
 Optimización de recursos del sistema operativo
