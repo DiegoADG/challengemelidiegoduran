@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "26486e8a-032a-4888-96d9-b02c3f59f46f",
+		"name": "challengeMeli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8453257"
+	},
+	"item": [
+		{
+			"name": "RegistrarItem",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer APP_USR-1853613886899066-022216-2592982f54c2566c86cede12882a29c5-190538639",
+						"type": "text"
+					},
+					{
+						"key": "separador",
+						"value": "\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/dadgo/Downloads/Wingo - 04LJ8M (2).pdf"
+						},
+						{
+							"key": "field_b",
+							"value": "as",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/obtenerArchivo",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"obtenerArchivo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/consultaritems",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"consultaritems"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
